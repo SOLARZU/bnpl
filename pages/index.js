@@ -49,7 +49,7 @@ export default function Home() {
     //   recipientAddress // The address of the recipient, i.e. the wallet you're purchasing on behalf of
     // })
 
-		console.log("Create Buy Order Successful");
+		alert("Created Buy Order Successful");
 	};
   return (
     <div className={styles.container}>
